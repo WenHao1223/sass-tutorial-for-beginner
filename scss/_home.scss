@@ -14,7 +14,7 @@
     text-align: center;
 
     &__name {
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid set-text-color($primary-color);
         font-size: 5rem;
         margin-top: 1rem;
         padding-bottom: 1rem;

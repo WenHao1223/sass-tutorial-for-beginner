@@ -1,8 +1,8 @@
-@import 'config', 'home';
+@import 'config', 'home', 'menu';
 
 body {
     background: $primary-color;
-    color: #fff;
+    color: set-text-color($primary-color);
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
@@ -13,7 +13,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ main {
 
 footer {
     bottom: .4rem;
-    color: #fff;
+    color: set-text-color($primary-color);
     font-size: 1rem;
     padding: 1rem;
     position: fixed;
